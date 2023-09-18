@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(214, 207, 194, 0.411);
+}
+
+.carousel-inner .img {
+    width: 50%;
+    margin: auto;
+  }
+
+
+/* _list-group.scss:5 */
+.list-group {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /* Default */
+    justify-content: space-between;
+    width: 100%;
+    flex: 0 1 auto;
+    /* Default */
+    list-style-type: none;
+}
+
+.list-group-item {
+    display: block;
+    flex: 0 1 auto;
+    /* Default */
+    list-style-type: none;
+    border-radius: 15px;
+}
